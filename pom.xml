@@ -4,7 +4,7 @@
 
     <groupId>com.mobigen</groupId>
     <artifactId>ticket-api-client</artifactId>
-    <version>v1.0.0</version>
+    <version>v1.0.0-SNAPSHOT</version>
     <name>tableau-api-client</name>
     <description>tableau api client(by feign library)</description>
 
@@ -17,6 +17,16 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/jblim0125/tableau-api-client</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
